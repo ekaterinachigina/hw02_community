@@ -29,5 +29,5 @@ class Post(models.Model):
         return self.text
 
 
-class Meta:
-    ordering = ['-pub_date']
+    class Meta:
+        ordering = ['-pub_date']
