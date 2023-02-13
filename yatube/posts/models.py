@@ -28,6 +28,5 @@ class Post(models.Model):
     def __str__(self) -> str:
         return self.text
 
-
     class Meta:
         ordering = ['-pub_date']
